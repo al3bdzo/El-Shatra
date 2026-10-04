@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #222;
+  background: #fafafa;
+}
+.page { max-width: 1000px; margin: 0 auto; padding: 24px 16px; }
+h1 { font-size: 24px; }
+h2 { font-size: 17px; margin-top: 0; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+form.card label { display: block; margin-bottom: 10px; }
+input, select { padding: 4px 6px; }
+button { padding: 6px 14px; cursor: pointer; }
+.error { color: #b91c1c; }
+.game { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.game .card { flex: 1; min-width: 260px; }
+.moves { columns: 2; padding-left: 20px; }
